@@ -15,3 +15,4 @@ npm install
 gulp
 ```
 <p><a href="https://diddy032.github.io/practice-boostrap-sweetaste/" target="_blank" rel="nofollow">前往網站</a>。</p>
+<a href="https://diddy032.github.io/practice-boostrap-sweetaste/" target="_blank">前往網站</a>
