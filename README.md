@@ -1,3 +1,16 @@
-# text-1
-這是 readme頁面
-測試-1
+# 六角學院 Gulp 範例
+
+## 安裝環境
+
+```
+npm install gulp -g
+```
+
+## 執行
+
+請依序執行以下指令來執行 gulp。
+
+```
+npm install
+gulp
+```
