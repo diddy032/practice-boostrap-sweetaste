@@ -1,3 +1,6 @@
+<a href="https://diddy032.github.io/practice-boostrap-sweetaste/" target="_blank">前往展示頁面</a>
+
+
 # 六角學院 Gulp 範例
 
 ## 安裝環境
@@ -14,4 +17,4 @@ npm install gulp -g
 npm install
 gulp
 ```
-<a href="https://diddy032.github.io/practice-boostrap-sweetaste/" target="_blank">前往網站</a>
+
