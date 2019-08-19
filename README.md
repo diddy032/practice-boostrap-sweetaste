@@ -1,4 +1,4 @@
-<a href="https://diddy032.github.io/practice-boostrap-sweetaste/" target="_blank">前往展示頁面</a>
+→<a href="https://diddy032.github.io/practice-boostrap-sweetaste/" target="_blank">前往展示頁面</a>
 
 
 # 六角學院 Gulp 範例
