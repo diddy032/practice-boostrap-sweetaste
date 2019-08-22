@@ -6,7 +6,7 @@
 .feature-text {
   right: 0;
   bottom: 0;
-  background: inherit;
+  // background: inherit;
   overflow: hidden;
   p {
     z-index: 1;
@@ -17,12 +17,13 @@
 .feature-text::before {
   content: '';
   position: absolute;
-  top:0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top:1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
   background: inherit;
-  filter: blur(4px);
+  filter: blur(2px);
+  margin: 2px;
 }
 .feature-text::after {
   content: "";
@@ -31,12 +32,22 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(255,225,128,0.8);
-  margin: -1px;
+  background: rgba($accent, .8);
+  margin: 0px;
 }
 
-.feature-textpr::after {
-  background: rgba(63,93,69,0.8);
+
+.feature-textpr{
+  color: $white;
+  &:after{
+    background: rgba($primary, .8);
+  }
+  &:hover{
+    color: $primary;
+  }
+  &:hover::after{
+    background: rgba($accent, .8);
+  }
 }
 
 .home-feature{

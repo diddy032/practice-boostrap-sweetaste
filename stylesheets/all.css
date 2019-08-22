@@ -165,7 +165,7 @@ a {
 
 a:hover {
   color: #202f23;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]):not([tabindex]) {
@@ -3356,11 +3356,11 @@ fieldset:disabled a.btn {
 
 .btn-link:hover {
   color: #202f23;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn-link:focus, .btn-link.focus {
-  text-decoration: underline;
+  text-decoration: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -12117,7 +12117,6 @@ body {
 .feature-text {
   right: 0;
   bottom: 0;
-  background: inherit;
   overflow: hidden;
 }
 
@@ -12130,13 +12129,14 @@ body {
 .feature-text::before {
   content: '';
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
   background: inherit;
-  -webkit-filter: blur(4px);
-          filter: blur(4px);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  margin: 2px;
 }
 
 .feature-text::after {
@@ -12147,11 +12147,23 @@ body {
   bottom: 0;
   left: 0;
   background: rgba(255, 225, 128, 0.8);
-  margin: -1px;
+  margin: 0px;
 }
 
-.feature-textpr::after {
+.feature-textpr {
+  color: #fff;
+}
+
+.feature-textpr:after {
   background: rgba(63, 93, 69, 0.8);
+}
+
+.feature-textpr:hover {
+  color: #3F5D45;
+}
+
+.feature-textpr:hover::after {
+  background: rgba(255, 225, 128, 0.8);
 }
 
 .home-feature {
